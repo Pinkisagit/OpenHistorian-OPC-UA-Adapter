@@ -58,7 +58,6 @@ namespace OPCUAAdapter
 
         protected override void AttemptDisconnection()
         {
-            if (m_session.Subscriptions.Count() > 0) m_session.RemoveSubscription(m_subscription);
             if (m_session.Connected) m_session.Close();
         }
 
