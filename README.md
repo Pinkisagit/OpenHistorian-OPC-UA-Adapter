@@ -1,6 +1,8 @@
 # OpenHistorian-OPC-UA-Adapter
 Adapter which ingests OPC UA data into OpenHistorian.
 
+**Disclaimer**: This code is provided as is - I'm not actively maintaining it but I thought it may be useful to others. It requires you to have knowledge of C# programming and development in Visual Studio. It has to be compiled.
+
 ## How to configure:
 1. Compile source code - make sure you use GSF dlls that correspond to your version of OpenHistorian
 2. Create a folder within OpenHistorian folder called OPCUA
